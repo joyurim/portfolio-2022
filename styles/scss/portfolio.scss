@@ -8,8 +8,8 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 body {
-  // color: $text-color;
-  // background: $main-color;
+  color: var(--text-color);
+  background: var(--main-color);
   transition: 0.3s ease-out;
   overflow-x: hidden;
   max-width: 100%;
@@ -26,4 +26,7 @@ section:not(#sectionPin) {
   padding: 50px 10vw;
   margin: auto;
   place-items: center;
+  &.intro {
+    color: var(--white-color);
+  }
 }
