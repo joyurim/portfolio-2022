@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/parallax.js"></script>
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,16 +19,53 @@
     />
 
     <!-- css -->
-    <link href="/dist/output.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="styles/css/tailwind.css" />
     <link rel="stylesheet" type="text/css" href="styles/css/root.css" />
     <link rel="stylesheet" type="text/css" href="styles/css/portfolio.css" />
 
-    <title>portfolio</title>
+    <title>parallax</title>
   </head>
   <body>
+    <main class="container">
+      <section class="background">
+        <article class="content-wrapper">
+          <div class="content-title">
+            <h1>Portfolio</h1>
+            <p>2022 For Yurim Jo</p>
+          </div>
+          <ul class="content-subtitle flex items-center">
+            <li>UI/UX Web Publisher</li>
+            <li>Project Leader</li>
+            <li>B2B Web Planner</li>
+          </ul>
+        </article>
+      </section>
+      <section class="background">
+        <div class="content-wrapper">
+          <p class="content-title">Cras lacinia non eros nec semper.</p>
+          <p class="content-subtitle">
+            Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at
+            nibh aliquam dapibus.
+          </p>
+        </div>
+      </section>
+      <section class="background">
+        <div class="content-wrapper">
+          <p class="content-title">Etiam consequat lectus.</p>
+          <p class="content-subtitle">
+            Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at
+            nibh aliquam dapibus.
+          </p>
+        </div>
+      </section>
+    </main>
+
     <!-- <main>
-      <section class="intro" data-bgcolor="#7E91CB" data-textcolor="#ffffff">
+      <section
+        class="parallax-window intro"
+        data-bgcolor="#7E91CB"
+        data-textcolor="#ffffff"
+      >
         <div data-scroll data-scroll-speed="1">
           <h1>Portfolio</h1>
           <p>2022 For Yurim Jo</p>
