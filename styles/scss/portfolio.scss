@@ -65,8 +65,10 @@ body {
     }
   }
   &:nth-child(2) {
+    background-color: $main-color;
   }
   &:nth-child(3) {
+    background-color: $main-color;
   }
   &__wrapper {
     height: 100vh;
