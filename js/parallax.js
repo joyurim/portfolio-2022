@@ -57,11 +57,11 @@ window.addEventListener(mousewheelEvent, _.throttle(parallaxScroll, 60), false)
 
 // ------------- SLIDE MOTION ------------- //
 function nextItem() {
-  var $previousSlide = $('.background').eq(currentSlideNumber - 1)
+  var $previousSlide = $('.content').eq(currentSlideNumber - 1)
   $previousSlide.removeClass('up-scroll').addClass('down-scroll')
 }
 
 function previousItem() {
-  var $currentSlide = $('.background').eq(currentSlideNumber)
+  var $currentSlide = $('.content').eq(currentSlideNumber)
   $currentSlide.removeClass('down-scroll').addClass('up-scroll')
 }
