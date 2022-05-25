@@ -8,7 +8,7 @@
     <!-- js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     <script src="js/parallax.js"></script>
 
@@ -17,29 +17,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Anaheim&family=Noto+Sans+KR:wght@100;400;500;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anaheim&family=Noto+Sans+KR:wght@100;400;500;900&family=Roboto:wght@300;400&display=swap"
     />
     <!-- css -->
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="styles/css/variable.css" />
     <link rel="stylesheet" type="text/css" href="styles/css/portfolio.css" />
 
     <title>parallax</title>
   </head>
   <body>
+    <h1 class="flex">aaaa</h1>
     <main class="container">
-      <section class="content">
+      <!-- intro -->
+      <section class="intro content">
         <article class="content__wrapper">
           <div class="content__title">
             <h1>Portfolio</h1>
             <p>2022 For Yurim Jo</p>
           </div>
-          <ul class="content__subtitle flex items-center">
+          <ul class="content__subtitle">
             <li>UI/UX Web Publisher</li>
             <li>Project Leader</li>
             <li>B2B Web Planner</li>
           </ul>
         </article>
       </section>
-      <section class="content">
+
+      <!-- Profile -->
+      <section class="profile content">
         <article class="content__wrapper">
           <p class="content__title">Cras lacinia non eros nec semper.</p>
           <p class="content__subtitle">
@@ -48,6 +54,7 @@
           </p>
         </article>
       </section>
+
       <section class="content">
         <article class="content__wrapper">
           <p class="content__title">Etiam consequat lectus.</p>
