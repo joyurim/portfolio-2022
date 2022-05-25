@@ -8,6 +8,9 @@
   font-family: 'Noto Sans KR', 'Anaheim', sans-serif;
 }
 // ------------- VARIABLES ------------- //
+$main-color: #7e91cb;
+$text-color: #181818;
+$white-color: #ffffff;
 $parallax-offset: 30vh;
 $content-offset: 40vh;
 $transition-speed: 1.2s;
@@ -32,8 +35,6 @@ body {
 }
 
 .content {
-  box-sizing: initial;
-  box-sizing: initial;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -57,17 +58,15 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
   }
   &:first-child {
-    background-image: url(https://i.postimg.cc/kXq9Qmnj/bgd1.jpg);
+    background-color: $main-color;
     transform: translateY(-$parallax-offset / 2);
     .content__wrapper {
       transform: translateY($parallax-offset / 2);
     }
   }
   &:nth-child(2) {
-    background-image: url(/images/stellar-spire-eagle-nebula-1400x900.jpg);
   }
   &:nth-child(3) {
-    background-image: url(/images/helix-nebula-1400x1400.jpg);
   }
   &__wrapper {
     height: 100vh;
@@ -116,7 +115,4 @@ body {
       }
     }
   }
-}
-.intro {
-  background: red;
 }
