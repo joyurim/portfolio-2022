@@ -7,29 +7,21 @@
   -webkit-tap-highlight-color: transparent;
   font-family: 'Noto Sans KR', 'Anaheim', sans-serif;
 }
-// body {
-//   transition: 0.3s ease-out;
-//   overflow-x: hidden;
-//   max-width: 100%;
-//   width: 100%;
-//   overscroll-behavior: none;
-// }
-
+// ------------- VARIABLES ------------- //
+$parallax-offset: 30vh;
+$content-offset: 40vh;
+$transition-speed: 1.2s;
+$slide-number: 3;
 // ------------- MIXINS ------------- //
 @mixin transition($time, $property: all, $easing: ease-in) {
   transition: $property $time $easing;
 }
 /* Set stacking context of slides */
 @for $i from 1 to ($slide-number + 1) {
-  .background:nth-child(#{$i}) {
+  .content:nth-child(#{$i}) {
     z-index: ($slide-number + 1) - $i;
   }
 }
-// ------------- VARIABLES ------------- //
-$parallax-offset: 30vh;
-$content-offset: 40vh;
-$transition-speed: 1.2s;
-$slide-number: 3;
 
 html,
 body {
@@ -40,6 +32,8 @@ body {
 }
 
 .content {
+  box-sizing: initial;
+  box-sizing: initial;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -103,7 +97,7 @@ body {
     .content__wrapper {
       transform: translateY($parallax-offset / 2);
     }
-    + .background {
+    + .content {
       transform: translate3d(0, $parallax-offset, 0);
       .content__wrapper {
         transform: translateY($parallax-offset);
@@ -115,7 +109,7 @@ body {
     .content__wrapper {
       transform: translateY($content-offset);
     }
-    + .background:not(.down-scroll) {
+    + .content:not(.down-scroll) {
       transform: translate3d(0, -$parallax-offset / 2, 0);
       .content__wrapper {
         transform: translateY($parallax-offset / 2);
