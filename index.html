@@ -17,6 +17,11 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Anaheim&family=Cairo:wght@900&family=Noto+Sans+KR:wght@100;400;500;900&family=Roboto:wght@300;400&display=swap"
     />
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="/styles/css/portfolio.css" />
 
@@ -115,9 +120,9 @@
 
       <!-- Career -->
       <section aria-label="참여 프로젝트 리스트" class="content career">
-        <article class="content__wrapper">
+        <article class="content__wrapper flex flex-1">
           <h1 class="page-title">Career Details</h1>
-          <div class="career__list flex flex-col justify-between">
+          <div class="career__list flex-none flex flex-col justify-between">
             <ul class="flex items-start justify-between">
               <li class="flex items-start">
                 <label>2022</label>
@@ -201,8 +206,23 @@
           <p class="career__bottom">2022 Portfolio</p>
         </article>
       </section>
+
+      <section aria-label="작업물" class="content portfolio">
+        <article class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide ybtour">Slide 1</div>
+            <div class="swiper-slide doosan">Slide 2</div>
+            <div class="swiper-slide aronia">Slide 3</div>
+          </div>
+        </article>
+      </section>
     </main>
     <!-- parallax -->
     <script src="js/parallax.js"></script>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.mySwiper', {})
+    </script>
   </body>
 </html>
