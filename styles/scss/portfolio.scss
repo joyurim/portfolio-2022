@@ -6,7 +6,7 @@ $border-color: #dddddd;
 $parallax-offset: 30vh;
 $content-offset: 40vh;
 $transition-speed: 1.2s;
-$slide-number: 3;
+$slide-number: 6;
 // ------------- MIXINS ------------- //
 @mixin transition($time, $property: all, $easing: ease-in) {
   -webkit-transition: $property $time $easing;
@@ -240,7 +240,7 @@ body {
     }
   }
   &__list {
-    // padding: 60px 80px;
+    padding: 60px;
     color: $text-color;
     background: #f8f9ff;
     border-radius: 15px;
@@ -316,4 +316,12 @@ body {
       background: url(/images/bg__aronia.svg) no-repeat center center / cover;
     }
   }
+}
+.event {
+  color: $text-color;
+  background: #f2f4fa;
+}
+.last {
+  color: $white-color;
+  background: $main-color;
 }

@@ -1,13 +1,25 @@
 /* Set stacking context of slides */
 .content:nth-child(1) {
-  z-index: 3;
+  z-index: 6;
 }
 
 .content:nth-child(2) {
-  z-index: 2;
+  z-index: 5;
 }
 
 .content:nth-child(3) {
+  z-index: 4;
+}
+
+.content:nth-child(4) {
+  z-index: 3;
+}
+
+.content:nth-child(5) {
+  z-index: 2;
+}
+
+.content:nth-child(6) {
   z-index: 1;
 }
 
@@ -278,6 +290,7 @@ body {
 }
 
 .career__list {
+  padding: 60px;
   color: #181818;
   background: #f8f9ff;
   border-radius: 15px;
@@ -357,5 +370,15 @@ body {
 
 .portfolio .swiper .aronia {
   background: url(/images/bg__aronia.svg) no-repeat center center/cover;
+}
+
+.event {
+  color: #181818;
+  background: #f2f4fa;
+}
+
+.last {
+  color: #ffffff;
+  background: #7e91cb;
 }
 /*# sourceMappingURL=portfolio.css.map */
