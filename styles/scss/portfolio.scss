@@ -74,7 +74,6 @@ body {
     justify-content: center;
     text-align: center;
     flex-flow: column nowrap;
-    color: #fff;
     text-transform: initial;
     transform: translateY($content-offset);
     will-change: transform;
@@ -143,6 +142,7 @@ body {
   background-color: $main-color;
   .content__wrapper {
     position: relative;
+    color: $white-color;
   }
   .content__title {
     position: absolute;
@@ -240,7 +240,7 @@ body {
     }
   }
   &__list {
-    padding: 60px 80px;
+    // padding: 60px 80px;
     color: $text-color;
     background: #f8f9ff;
     border-radius: 15px;
@@ -264,8 +264,8 @@ body {
           display: inline-block;
           width: 20px;
           height: 20px;
-          background: url(/portfolio-2022/images/icon__arrow--right.svg)
-            no-repeat center center / 100%;
+          background: url(/images/icon__arrow--right.svg) no-repeat center
+            center / 100%;
           vertical-align: bottom;
         }
       }
@@ -286,4 +286,9 @@ body {
       background: $border-color;
     }
   }
+}
+element.style {
+}
+.content.down-scroll .content__wrapper {
+  transform: none;
 }

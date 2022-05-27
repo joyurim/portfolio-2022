@@ -82,7 +82,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  color: #fff;
   text-transform: initial;
   -webkit-transform: translateY(40vh);
           transform: translateY(40vh);
@@ -167,6 +166,7 @@ body {
 
 .intro .content__wrapper {
   position: relative;
+  color: #ffffff;
 }
 
 .intro .content__title {
@@ -278,7 +278,6 @@ body {
 }
 
 .career__list {
-  padding: 60px 80px;
   color: #181818;
   background: #f8f9ff;
   border-radius: 15px;
@@ -309,7 +308,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/portfolio-2022/images/icon__arrow--right.svg) no-repeat center center/100%;
+  background: url(/images/icon__arrow--right.svg) no-repeat center center/100%;
   vertical-align: bottom;
 }
 
@@ -328,5 +327,10 @@ body {
   width: 100%;
   height: 1px;
   background: #dddddd;
+}
+
+.content.down-scroll .content__wrapper {
+  -webkit-transform: none;
+          transform: none;
 }
 /*# sourceMappingURL=portfolio.css.map */

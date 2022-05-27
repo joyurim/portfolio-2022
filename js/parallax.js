@@ -7,7 +7,7 @@ var isIe =
 var scrollSensitivitySetting = 30 //Increase/decrease this number to change sensitivity to trackpad gestures (up = less sensitive; down = more sensitive)
 var slideDurationSetting = 600 //Amount of time for which slide is "locked"
 var currentSlideNumber = 0
-var totalSlideNumber = $('.background').length
+var totalSlideNumber = $('.content').length
 
 // ------------- DETERMINE DELTA/SCROLL DIRECTION ------------- //
 function parallaxScroll(evt) {

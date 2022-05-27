@@ -8,30 +8,24 @@
     <!-- js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- tailwindcss -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-
-    <script src="js/parallax.js"></script>
-
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anaheim&family=Cairo:wght@900&family=Noto+Sans+KR:wght@100;400;500;900&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anaheim&family=Cairo:wght@900&family=Noto+Sans+KR:wght@100;400;500;900&family=Roboto:wght@300;400&display=swap"
     />
     <!-- css -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/portfolio-2022/styles/css/portfolio.css"
-    />
+    <link rel="stylesheet" type="text/css" href="/styles/css/portfolio.css" />
 
     <title>parallax</title>
   </head>
   <body>
     <main class="container">
       <!-- intro -->
-      <section aria-label="인트로 화면" class="intro content">
+      <section aria-label="인트로 화면" class="content intro">
         <article class="content__wrapper">
           <div class="content__title">
             <h1>Portfolio</h1>
@@ -46,11 +40,11 @@
       </section>
 
       <!-- Profile -->
-      <section aria-label="기본 프로필 정보" class="profile content">
+      <section aria-label="기본 프로필 정보" class="content profile">
         <article class="content__wrapper">
           <div class="flex justify-center">
             <img
-              src="/portfolio-2022/images/yurim.svg"
+              src="/images/yurim.svg"
               alt="프로필 사진"
               class="profile__img"
             />
@@ -120,10 +114,10 @@
       </section>
 
       <!-- Career -->
-      <section aria-label="참여 프로젝트 리스트" class="career content">
-        <article class="content__wrapper flex flex-col">
+      <section aria-label="참여 프로젝트 리스트" class="content career">
+        <article class="content__wrapper">
           <h1 class="page-title">Career Details</h1>
-          <div class="career__list flex-1 flex flex-col justify-between">
+          <div class="career__list flex flex-col justify-between">
             <ul class="flex items-start justify-between">
               <li class="flex items-start">
                 <label>2022</label>
@@ -208,5 +202,7 @@
         </article>
       </section>
     </main>
+    <!-- parallax -->
+    <script src="js/parallax.js"></script>
   </body>
 </html>
