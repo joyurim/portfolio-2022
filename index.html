@@ -211,10 +211,56 @@
         <article class="content__wrapper">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide ybtour">Slide 1</div>
+              <!-- 노랑풍선 -->
+              <div class="swiper-slide ybtour">
+                <div class="swiper-slide__textbox">
+                  <h1 class="ybtour__title">노랑풍선 [여행을 가볍게]</h1>
+                  <div class="ybtour__group">
+                    <h2>Overvoew</h2>
+                    <p class="mb-8">
+                      왜 여행 사이트들은 일방적인 정보전달만 할까?<br />
+                      노랑풍선 온라인 여행 박람회는 이러한 의문점을 가지고
+                      기획되었습니다.<br />
+                      단순한 정보전달 및 홍보성 사이트가 아니라 그리드
+                      레이아웃을 활용해서<br />
+                      전체적으로 시원시원한 느낌이 들도록 디자인했습니다.<br />
+                      또한, 여러 유형의 질문을 통해 고객의 성향에 맞는 여행지가
+                      추천되도록 기획되었습니다.
+                    </p>
+                    <ul class="flex items-center mb-10">
+                      <li class="flex flex-col justify-center">흥미로운</li>
+                      <li class="flex flex-col justify-center">
+                        고객<br />친화적
+                      </li>
+                      <li class="flex flex-col justify-center">단순한</li>
+                    </ul>
+                  </div>
+                  <div class="ybtour__group">
+                    <h2>About</h2>
+                    <p>
+                      작업기간 : 15일<br />
+                      해상도 : 1920 x 1080
+                    </p>
+                  </div>
+                </div>
+                <!-- 이미지 -->
+                <div class="ybtour__imgbox">
+                  <img
+                    src="/images/bg__ybtoru--itme.svg"
+                    alt="노랑풍선 온라인 박람회"
+                  />
+                  <p>
+                    노랑풍선 온라인 박람회 - 유럽편은 개인 포트폴리오 작업을
+                    위해 제작되었습니다.
+                  </p>
+                </div>
+              </div>
+              <!-- 두산 -->
               <div class="swiper-slide doosan">Slide 2</div>
+              <!-- 아로니아 -->
               <div class="swiper-slide aronia">Slide 3</div>
             </div>
+            <div class="swiper-scrollbar"></div>
           </div>
         </article>
       </section>
@@ -235,7 +281,12 @@
     <!-- swiper -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-      var swiper = new Swiper('.mySwiper', {})
+      var swiper = new Swiper('.mySwiper', {
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          hide: true,
+        },
+      })
     </script>
   </body>
 </html>

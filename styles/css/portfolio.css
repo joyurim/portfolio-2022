@@ -351,17 +351,59 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding: 80px;
   color: #ffffff;
+}
+
+.portfolio .swiper .swiper-slide__textbox {
+  text-align: left;
+}
+
+.portfolio .swiper .swiper-slide__textbox h1 {
+  font-size: 48px;
+}
+
+.portfolio .swiper .swiper-slide__textbox h2 {
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .portfolio .swiper .ybtour {
   background: url(/images/bg__ybtour.svg) no-repeat center center/cover;
+}
+
+.portfolio .swiper .ybtour__imgbox {
+  width: 932px;
+  height: 555px;
+}
+
+.portfolio .swiper .ybtour__title {
+  margin-bottom: 30px;
+  color: #ffc72c;
+}
+
+.portfolio .swiper .ybtour__group h2 {
+  margin-bottom: 14px;
+  color: #ffc72c;
+}
+
+.portfolio .swiper .ybtour__group li {
+  width: 112px;
+  height: 112px;
+  margin-right: 38px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.portfolio .swiper .ybtour__group li:last-child {
+  margin-right: 0;
 }
 
 .portfolio .swiper .doosan {
