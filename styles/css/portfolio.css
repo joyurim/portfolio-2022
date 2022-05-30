@@ -357,7 +357,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 80px;
+  padding: 80px 100px;
   color: #ffffff;
 }
 
@@ -385,6 +385,19 @@ body {
 
 .portfolio .swiper .swiper-slide__textbox li:last-child {
   margin-right: 0;
+}
+
+.portfolio .swiper .swiper-button-next,
+.portfolio .swiper .swiper-button-prev {
+  color: #ffffff;
+}
+
+.portfolio .swiper .swiper-button-next {
+  right: 40px;
+}
+
+.portfolio .swiper .swiper-button-prev {
+  left: 40px;
 }
 
 .portfolio .swiper .ybtour {
@@ -437,6 +450,16 @@ body {
 
 .portfolio .swiper .aronia {
   background: url(/images/bg__aronia.svg) no-repeat center center/cover;
+}
+
+.portfolio .swiper .aronia__title {
+  margin-bottom: 30px;
+  color: #f1b9ff;
+}
+
+.portfolio .swiper .aronia__group h2 {
+  margin-bottom: 14px;
+  color: #f1b9ff;
 }
 
 .event {

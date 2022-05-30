@@ -246,7 +246,7 @@
                 <!-- 이미지 -->
                 <div class="ybtour__imgbox">
                   <img
-                    src="/images/bg__ybtoru--itme.svg"
+                    src="/images/bg__ybtoru--item.svg"
                     alt="노랑풍선 온라인 박람회"
                   />
                   <p>
@@ -289,7 +289,7 @@
                 <!-- 이미지 -->
                 <div class="doosan__imgbox">
                   <img
-                    src="/images/bg__doosan--itme.svg"
+                    src="/images/bg__doosan--item.svg"
                     alt="두산베어스 홈페이지"
                   />
                   <p>
@@ -299,9 +299,41 @@
                 </div>
               </div>
               <!-- 아로니아 -->
-              <div class="swiper-slide aronia">Slide 3</div>
+              <div class="swiper-slide aronia">
+                <div class="swiper-slide__textbox">
+                  <h1 class="aronia__title">Aronia Original</h1>
+                  <div class="aronia__group">
+                    <h2>Overvoew</h2>
+                    <p class="mb-8">
+                      독일의 아로니아 착즙 브랜드 Aronia Original의 제품
+                      홍보용<br />
+                      브랜드 사이트를 신규 작업했습니다.
+                    </p>
+                    <ul class="flex items-center mb-10">
+                      <li class="flex flex-col justify-center">반응형</li>
+                      <li class="flex flex-col justify-center">단순한</li>
+                      <li class="flex flex-col justify-center">정보전달</li>
+                    </ul>
+                  </div>
+                  <div class="aronia__group">
+                    <h2>About</h2>
+                    <p>
+                      작업기간 : 15일<br />
+                      해상도 : 반응형 사이트
+                    </p>
+                  </div>
+                </div>
+                <!-- 이미지 -->
+                <div class="aronia__imgbox">
+                  <img
+                    src="/images/bg__aronia--item.svg"
+                    alt="아로니아 오리지날 홍보 홈페이지"
+                  />
+                </div>
+              </div>
             </div>
-            <div class="swiper-scrollbar"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
         </article>
       </section>
@@ -323,9 +355,9 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper('.mySwiper', {
-        scrollbar: {
-          el: '.swiper-scrollbar',
-          hide: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
       })
     </script>
