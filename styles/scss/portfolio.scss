@@ -6,7 +6,7 @@ $border-color: #dddddd;
 $parallax-offset: 30vh;
 $content-offset: 40vh;
 $transition-speed: 1.2s;
-$slide-number: 6;
+$slide-number: 5;
 // ------------- MIXINS ------------- //
 @mixin transition($time, $property: all, $easing: ease-in) {
   -webkit-transition: $property $time $easing;
@@ -264,8 +264,8 @@ body {
           display: inline-block;
           width: 20px;
           height: 20px;
-          background: url(/images/icon__arrow--right.svg) no-repeat center
-            center / 100%;
+          background: url(/portfolio-2022/images/icon__arrow--right.svg)
+            no-repeat center center / 100%;
           vertical-align: bottom;
         }
       }
@@ -342,7 +342,8 @@ body {
     .uplus {
       $upls: #ff00bf;
       position: relative;
-      background: url(/images/bg__o2o.jpg) no-repeat center center / cover;
+      background: url(/portfolio-2022/images/bg__o2o.jpg) no-repeat center
+        center / cover;
       &::before {
         content: '';
         position: absolute;
@@ -381,7 +382,8 @@ body {
     .homin {
       $upls: #ff00bf;
       position: relative;
-      background: url(/images/bg__homin.jpg) no-repeat center center / cover;
+      background: url(/portfolio-2022/images/bg__homin.jpg) no-repeat center
+        center / cover;
       &::before {
         content: '';
         position: absolute;
@@ -420,7 +422,8 @@ body {
     .sm {
       $upls: #ff00bf;
       position: relative;
-      background: url(/images/bg__sm.jpg) no-repeat center center / cover;
+      background: url(/portfolio-2022/images/bg__sm.jpg) no-repeat center center /
+        cover;
       &::before {
         content: '';
         position: absolute;
@@ -460,7 +463,8 @@ body {
     .robot {
       $upls: #1b7ef2;
       position: relative;
-      background: url(/images/bg__robot.jpg) no-repeat center center / cover;
+      background: url(/portfolio-2022/images/bg__robot.jpg) no-repeat center
+        center / cover;
       &::before {
         content: '';
         position: absolute;
@@ -572,8 +576,6 @@ body {
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
     }
-  }
-  &__list {
   }
 }
 .last {

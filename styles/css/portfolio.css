@@ -1,25 +1,21 @@
 /* Set stacking context of slides */
 .content:nth-child(1) {
-  z-index: 6;
-}
-
-.content:nth-child(2) {
   z-index: 5;
 }
 
-.content:nth-child(3) {
+.content:nth-child(2) {
   z-index: 4;
 }
 
-.content:nth-child(4) {
+.content:nth-child(3) {
   z-index: 3;
 }
 
-.content:nth-child(5) {
+.content:nth-child(4) {
   z-index: 2;
 }
 
-.content:nth-child(6) {
+.content:nth-child(5) {
   z-index: 1;
 }
 
@@ -321,7 +317,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(/images/icon__arrow--right.svg) no-repeat center center/100%;
+  background: url(/portfolio-2022/images/icon__arrow--right.svg) no-repeat center center/100%;
   vertical-align: bottom;
 }
 
@@ -402,7 +398,7 @@ body {
 
 .portfolio .swiper .uplus {
   position: relative;
-  background: url(/images/bg__o2o.jpg) no-repeat center center/cover;
+  background: url(/portfolio-2022/images/bg__o2o.jpg) no-repeat center center/cover;
 }
 
 .portfolio .swiper .uplus::before {
@@ -445,7 +441,7 @@ body {
 
 .portfolio .swiper .homin {
   position: relative;
-  background: url(/images/bg__homin.jpg) no-repeat center center/cover;
+  background: url(/portfolio-2022/images/bg__homin.jpg) no-repeat center center/cover;
 }
 
 .portfolio .swiper .homin::before {
@@ -488,7 +484,7 @@ body {
 
 .portfolio .swiper .sm {
   position: relative;
-  background: url(/images/bg__sm.jpg) no-repeat center center/cover;
+  background: url(/portfolio-2022/images/bg__sm.jpg) no-repeat center center/cover;
 }
 
 .portfolio .swiper .sm::before {
@@ -531,7 +527,7 @@ body {
 
 .portfolio .swiper .robot {
   position: relative;
-  background: url(/images/bg__robot.jpg) no-repeat center center/cover;
+  background: url(/portfolio-2022/images/bg__robot.jpg) no-repeat center center/cover;
 }
 
 .portfolio .swiper .robot::before {
