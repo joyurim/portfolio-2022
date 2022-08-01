@@ -573,8 +573,15 @@ body {
       transform: translateX(-50%);
     }
   }
+  &__list {
+  }
 }
 .last {
   color: $white-color;
   background: $main-color;
+  &__title {
+    font-family: 'Anaheim', sans-serif;
+    font-size: 96px;
+    letter-spacing: 0.5rem;
+  }
 }

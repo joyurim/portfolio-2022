@@ -655,4 +655,10 @@ body {
   color: #ffffff;
   background: #7e91cb;
 }
+
+.last__title {
+  font-family: 'Anaheim', sans-serif;
+  font-size: 96px;
+  letter-spacing: 0.5rem;
+}
 /*# sourceMappingURL=portfolio.css.map */
