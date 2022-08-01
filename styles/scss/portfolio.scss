@@ -378,6 +378,118 @@ body {
         }
       }
     }
+    .homin {
+      $upls: #ff00bf;
+      position: relative;
+      background: url(/images/bg__homin.jpg) no-repeat center center / cover;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.6);
+      }
+      .swiper-slide__textbox {
+        z-index: 1;
+      }
+      &__imgbox {
+        width: 600px;
+        height: auto;
+        z-index: 1;
+      }
+      &__title {
+        margin-bottom: 30px;
+        color: $white-color;
+        font-weight: 500;
+      }
+      &__group {
+        h2 {
+          margin-bottom: 14px;
+          color: $upls;
+        }
+        .btn {
+          padding: 5px 10px;
+          color: $text-color;
+          font-size: 14px;
+          background: $border-color;
+        }
+      }
+    }
+    .sm {
+      $upls: #ff00bf;
+      position: relative;
+      background: url(/images/bg__sm.jpg) no-repeat center center / cover;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.6);
+      }
+      .swiper-slide__textbox {
+        z-index: 1;
+      }
+      &__imgbox {
+        width: 600px;
+        height: auto;
+        z-index: 1;
+      }
+      &__title {
+        margin-bottom: 30px;
+        color: $white-color;
+        font-weight: 500;
+      }
+      &__group {
+        h2 {
+          margin-bottom: 14px;
+          color: $upls;
+        }
+        .btn {
+          padding: 5px 10px;
+          color: $text-color;
+          font-size: 14px;
+          background: $border-color;
+        }
+      }
+    }
+
+    .robot {
+      $upls: #1b7ef2;
+      position: relative;
+      background: url(/images/bg__robot.jpg) no-repeat center center / cover;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.6);
+      }
+      .swiper-slide__textbox {
+        z-index: 1;
+      }
+      &__imgbox {
+        width: 600px;
+        height: auto;
+        z-index: 1;
+      }
+      &__title {
+        margin-bottom: 30px;
+        color: $white-color;
+        font-weight: 500;
+      }
+      &__group {
+        h2 {
+          margin-bottom: 14px;
+          color: $upls;
+        }
+      }
+    }
     .ybtour {
       $ybtour: #ffc72c;
       background: url(/images/bg__ybtour.svg) no-repeat center center / cover;

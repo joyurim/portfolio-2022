@@ -443,6 +443,128 @@ body {
   background: #dddddd;
 }
 
+.portfolio .swiper .homin {
+  position: relative;
+  background: url(/images/bg__homin.jpg) no-repeat center center/cover;
+}
+
+.portfolio .swiper .homin::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.portfolio .swiper .homin .swiper-slide__textbox {
+  z-index: 1;
+}
+
+.portfolio .swiper .homin__imgbox {
+  width: 600px;
+  height: auto;
+  z-index: 1;
+}
+
+.portfolio .swiper .homin__title {
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.portfolio .swiper .homin__group h2 {
+  margin-bottom: 14px;
+  color: #ff00bf;
+}
+
+.portfolio .swiper .homin__group .btn {
+  padding: 5px 10px;
+  color: #181818;
+  font-size: 14px;
+  background: #dddddd;
+}
+
+.portfolio .swiper .sm {
+  position: relative;
+  background: url(/images/bg__sm.jpg) no-repeat center center/cover;
+}
+
+.portfolio .swiper .sm::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.portfolio .swiper .sm .swiper-slide__textbox {
+  z-index: 1;
+}
+
+.portfolio .swiper .sm__imgbox {
+  width: 600px;
+  height: auto;
+  z-index: 1;
+}
+
+.portfolio .swiper .sm__title {
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.portfolio .swiper .sm__group h2 {
+  margin-bottom: 14px;
+  color: #ff00bf;
+}
+
+.portfolio .swiper .sm__group .btn {
+  padding: 5px 10px;
+  color: #181818;
+  font-size: 14px;
+  background: #dddddd;
+}
+
+.portfolio .swiper .robot {
+  position: relative;
+  background: url(/images/bg__robot.jpg) no-repeat center center/cover;
+}
+
+.portfolio .swiper .robot::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.portfolio .swiper .robot .swiper-slide__textbox {
+  z-index: 1;
+}
+
+.portfolio .swiper .robot__imgbox {
+  width: 600px;
+  height: auto;
+  z-index: 1;
+}
+
+.portfolio .swiper .robot__title {
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.portfolio .swiper .robot__group h2 {
+  margin-bottom: 14px;
+  color: #1b7ef2;
+}
+
 .portfolio .swiper .ybtour {
   background: url(/images/bg__ybtour.svg) no-repeat center center/cover;
 }
